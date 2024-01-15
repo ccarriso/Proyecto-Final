@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --bs-blue: #037BC0; /*para los azules y fondos*/
+  --bs-green: #8cbc00; /*para el verde*/
+}
+
+@media screen {
+}
+
+.header {
+    background-color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+  
+.span {
+    color: #037BC0;
+  }
+
+ body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  text-align: center;
+  }
+
+.h1  {
+font-family: 'Playfair Display', serif;
+font-size: 5rem;
+}
+
+.h2 {
+font-family: 'Playfair Display', serif;
+font-size: 4rem;
+}
+
+.h3 {
+font-family: 'Playfair Display', serif;
+font-size: 4rem;
+}
+
+.hero {
+background-image: url('principal.jpg');
+background-size: cover;
+height: 900px;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+align-items: center; 
+justify-content: center;
+padding: 100px;
+}
+
+.flexbox-nav {
+display: flex;
+justify-content: space-between;
+align-self: center;
+align-items: center;
+font-family: 'Playfair Display' serif;
+font-size: 2rem;
+text-decoration: none;
+padding: 10px
+}
+
+ul {
+display: flex;
+text-decoration: none;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+a {
+text-decoration: none;
+color: black;
+padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  color: white;
+  }
+
+  .image-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-column {
+  background-color: dodgerblue
+  }
+
+.text-column h3 {
+  margin-top: 0;
+}
+
+.boton-agregar {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  color: white
+  }
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  color: white;
+  }
+  
+  .categorias-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    }
+
+  .categoria {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .categoria img {
+    max-width: 100%;
+    height: auto;
+  }
+
+    info {
+    margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    .footer-fila {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .footer-columna {
+      flex: 1;
+      text-align: center;
+    }
+
+      .footer-enlace {
+      color: black;
+      text-decoration: none;
+      display: block;
+      line-height: normal;
+    }
