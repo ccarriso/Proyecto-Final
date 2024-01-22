@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --bs-blue: #037BC0; /*para los azules y fondos*/
+    --bs-green: #8cbc00; /*para el verde*/
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+    
+  .span {
+    color: #037BC0;
+  }
+  .flexbox-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(224, 218, 188, 0.566);
+    color: black;
+    align-self: center;
+    align-items: center;
+    font-family: 'Playfair Display' serif;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-nav {
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .navbar-nav 
+  
+  ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  @media screen and (max-width: 600px) {
+  nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+      }
+  }
+    
+  nav a:hover {
+    background-color: lightgray;
+  }
+  
